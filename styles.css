@@ -1,0 +1,137 @@
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #676968;
+    height: 100px;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-color: #c2c4c3;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.edibtn{
+    width: 30px;
+    height: 30px;
+    background-image: url(png/rash.png);
+    background-size: 30px 30px;
+
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#f3f6f5 ;
+
+}
+.blockon{
+    background-image: url(png/block.png);
+     background-size: 24px 24px;
+     background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+
+}
+.font{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#f3f6f5 ;
+    border-radius: 5px;
+    width: 190px;
+    height: 50px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fonts{
+    width: 25%;
+}
+.fonts.b{
+    font-weight: bold;
+}
+.fonts.i{
+    font-weight: bold;
+    font-style:italic;
+}
+.fonts.u{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.fonts.s{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.local{
+    display: flex;
+    background-color:#f3f6f5 ;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 10px;
+
+
+}
+.loc{
+    width: 40%;
+}
+
+.rig{
+    width: 24px;
+    height: 24px;
+}
+
+.loc.zero{
+    width: 24px;
+    height: 24px;
+    background-image: url(png/left.png);
+    background-repeat: no-repeat;
+}
+.loc.one{
+    width: 24px;
+    height: 24px;
+    background-image: url(png/center.png);
+    background-repeat: no-repeat;
+}
+.loc.two{
+    position: relative;
+ 
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    background-image: url(png/rigth.png);
+    background-repeat: no-repeat;
+}
+.style{display: flex;  
+    width: 25%;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #f3f6f5;
+    margin-right: 10px;
+    align-items: center;
+}
+.styls{
+    
+}
+.styls.a{
+    background-image: url(png/a.png);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+}
